@@ -1,0 +1,63 @@
+h1, h6 {
+  color: white;
+  display: inline-block;
+}
+h2 {
+  color: white;
+  display: inline-block;
+
+}
+h2:hover {
+  color: black;
+}
+p {
+  color: white;
+}
+body {
+  background-color: #292929;
+}
+li {
+  list-style: none;
+  padding: 10px 0 0 50px;
+  color: white;
+}
+section {
+  display: none;
+  padding: 20px;
+}
+i:hover {
+  color: black;
+}
+.bio {
+  background-color: #1240AB;
+}
+.work {
+  background-color: #FF8900;
+}
+.main {
+  cursor: pointer;
+}
+.play {
+  background-color: #36D88E;
+  /*height: 100px;*/
+}
+.icon {
+  font-size: 30px;
+  color: white;
+  float: right;
+  padding: 30px;
+  margin: 0 0 0 0;
+}
+.bio-info {
+  background-color: #1240AB;
+  padding: 30px;
+  color: black;
+
+}
+.work-info {
+  background-color: #FF8900;
+  padding: 30px;
+}
+.hidden-display {
+  display: none;
+}
