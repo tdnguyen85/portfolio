@@ -11,6 +11,15 @@
 // });
 
 $(document).ready(function(){
+  $('#h-name').click(function(){
+    $(".slide").slideUp();
+    if($('#name-info').is(":visible"))
+    {
+      $('#name-info').slideUp('slow');
+    } else {
+      $('#name-info').slideDown('slow');
+    }
+  });
   $('#h-bio').click(function(){
     $(".slide").slideUp();
     if($('#bio-info').is(":visible"))
@@ -21,11 +30,21 @@ $(document).ready(function(){
     }
   });
   $('#h-work').click(function(){
-      if($('#work-info').is(":visible"))
-      {
-        $('#work-info').slideUp('slow');
-      } else {
-        $('#work-info').slideDown('slow');
-      }
-    });
+    $(".slide").slideUp();
+    if($('#work-info').is(":visible"))
+    {
+      $('#work-info').slideUp('slow');
+    } else {
+      $('#work-info').slideDown('slow');
+    }
+  });
+  $('#h-play').click(function(){
+  $(".slide").slideUp();
+    if($('#play-info').is(":visible"))
+    {
+      $('#play-info').slideUp('slow');
+    } else {
+      $('#play-info').slideDown('slow');
+    }
+  });
 });

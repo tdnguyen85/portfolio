@@ -1,15 +1,21 @@
-h1, h6 {
+h1, h2, h3, h6 {
   color: white;
   display: inline-block;
-}
-h2 {
-  color: white;
-  display: inline-block;
+  padding: 5px;
+  font-family: "BebasNeue",sans-serif;
 
 }
 h2:hover {
-  color: black;
+  color: pink;
 }
+h1:hover, h3:hover {
+  color: pink;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: pink;}
 p {
   color: white;
 }
@@ -25,11 +31,25 @@ section {
   display: none;
   padding: 20px;
 }
+hr {
+  padding: 5px;
+}
 i:hover {
-  color: black;
+  color: SpringGreen;
+}
+.center {
+  margin: auto;
+}
+.subheader {
+  color: white;
+}
+.top-box {
+  position: relative;
+  width: 280px;
+  height: 160px;
 }
 .bio {
-  background-color: #1240AB;
+  background-color: Crimson;
 }
 .work {
   background-color: #FF8900;
@@ -42,10 +62,10 @@ i:hover {
   /*height: 100px;*/
 }
 .icon {
-  font-size: 30px;
+  font-size: 50px;
   color: white;
   float: right;
-  padding: 30px;
+  padding: 20px;
   margin: 0 0 0 0;
 }
 .bio-info {
@@ -58,6 +78,32 @@ i:hover {
   background-color: #FF8900;
   padding: 30px;
 }
+.play-info {
+  padding: 30px;
+}
 .hidden-display {
   display: none;
+}
+.bottom {
+  height: 60px;
+  background-color: #292929;
+}
+.bullet {
+  color: white;
+}
+.work-div {
+  text-align:center;
+}
+.work-img {
+  margin: auto;
+  width: 600px;
+  height: 400px;
+}
+.orbit {
+  overflow: hidden;
+  height: 500px;
+}
+.bebas-neue {
+  font-family: "BebasNeue",sans-serif;
+  color: white;
 }

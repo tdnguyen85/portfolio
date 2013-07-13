@@ -2901,7 +2901,7 @@ form.custom {
   overflow: hidden;
   width: 100%;
   position: relative;
-  background: whitesmoke; }
+  background: #FF8900; }
   .orbit-container .orbit-slides-container {
     list-style: none;
     margin: 0;
@@ -2912,7 +2912,7 @@ form.custom {
     .orbit-container .orbit-slides-container > * {
       position: relative;
       float: left;
-      height: 100%; }
+      height: auto; }
       .orbit-container .orbit-slides-container > * .orbit-caption {
         position: absolute;
         bottom: 0;
